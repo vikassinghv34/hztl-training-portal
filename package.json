@@ -1,0 +1,59 @@
+{
+  "name": "hztl-open-container-pages",
+  "version": "1.0.0",
+  "description": "Bootstrap 4+ boilerplate with Gulp4, cross-env, SaSS, sourcemaps, concat, CSS & HTML minification, uglify, image optimization, template partials, BrowserSync, ready for deployment.",
+  "author": "HZTL",
+  "license": "MIT",
+  "homepage": "https://horizontaldigital.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/horizontal/hztl-open-container-pages.git"
+  },
+  "engines": {
+    "node": ">=12.13.0",
+    "npm": ">=6.12.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prepare": "gulp prod",
+    "prod": "gulp prod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@frctl/fractal": "^1.5.11",
+    "airbnb": "0.0.2",
+    "bootstrap": "^4.6.1",
+    "browser-sync": "^2.26.3",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "file-system": "^2.2.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-hb": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-lazy": "^1.7.11",
+    "slick-slider": "^1.8.2"
+  }
+}
